@@ -11,7 +11,7 @@ $loadNext.addEventListener('click', async()=>{
 
 async function initApp(initCharacterId){
     const characterData = await api.getCharacter(initCharacterId)
-    console.log(characterData)
+    // console.log(characterData)
     new Character(characterData)
 }
 
